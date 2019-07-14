@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.Navbar {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+  height: 6vh;
+}
+
+.logo {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 22px;
+  height: 100%;
+  font-family: Roboto;
+
+  background: linear-gradient(
+    to right,
+    #85d8ce,
+    #085078
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.slider {
+  width: 340px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.rc-slider-track {
+  background-color: transparent;
+}
+
+.rc-slider-rail {
+  height: 8px;
+}
+
+.rc-slider-handle,
+.rc-slider-handle:focus,
+.rc-slider-handle:hover,
+.rc-slider-handle:active {
+  background-color: green;
+  border: 2px solid green;
+  outline: none;
+  width: 13px;
+  box-shadow: none;
+  margin-left: -7px;
+  margin-top: -3px;
+}
