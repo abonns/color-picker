@@ -5,3 +5,12 @@
 .Palette-colors {
   height: 90%;
 }
+
+.Palette-footer {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+  letter-spacing: 3px;
+}
