@@ -5,16 +5,15 @@ import { withStyles } from "@material-ui/styles";
 
 const styles = {
   root: {
-    backgroundColor: "lightblue",
-    height: "100vh",
+    backgroundColor: "#efe9db",
+    height: "100%",
     display: "flex",
     alignItems: "flex-start",
-    justifyContent: "center",
-    overflow: "hidden"
+    justifyContent: "center"
   },
 
   container: {
-    width: "50%",
+    width: "70%",
     display: "flex",
     alignItems: "flex-start",
     flexDirection: "column",
@@ -22,13 +21,14 @@ const styles = {
   },
   nav: {
     display: "flex",
-    width: "100%",
+    width: "90%",
     justifyContent: "space-between",
     color: "white"
   },
 
   palettes: {
     boxSizing: "border-box ",
+    height: "100%",
     width: "100%",
     display: "grid",
     gridTemplateColumns: "repeat(3, 30%)",

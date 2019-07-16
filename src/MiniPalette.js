@@ -9,8 +9,7 @@ const styles = {
     height: "92%",
     borderRadius: "5px",
     padding: "0.5rem",
-    position: "'absolute',",
-    overflow: "hidden",
+    position: "'absolute",
     cursor: "pointer",
     "&:hover svg": {
       opacity: 1
